@@ -1,0 +1,198 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there"
+      ],
+      "responses": [
+        "Hi! Welcome to the BVIT Student Chatbot. What would you like to know?",
+        "Hello! How can I help you with information about BVIT or MSBTE?",
+        "Hey! Feel free to ask me about admissions, courses, placements or other college information."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Exit",
+        "Quit",
+        "Thank you bye"
+      ],
+      "responses": [
+        "Goodbye! It was nice helping you. Have a great day!",
+        "See you again! Feel free to come back if you have more questions about BVIT.",
+        "Bye! All the best with your studies."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome! I'm glad I could help.",
+        "No problem! Feel free to ask if you have another question.",
+        "Happy to help! Let me know if you need any other information about BVIT."
+      ]
+    },
+
+    {
+      "tag": "college_name",
+      "patterns": [
+        "What is the college name",
+        "Tell me about BVIT",
+        "Which college is this",
+        "College name",
+        "Full form of BVIT"
+      ],
+      "responses": [
+        "BVIT stands for Bharati Vidyapeeth Institute of Technology. What else would you like to know about the college?",
+        "The college is Bharati Vidyapeeth Institute of Technology, commonly known as BVIT.",
+        "BVIT stands for Bharati Vidyapeeth Institute of Technology. I can also tell you about its courses, location, admissions and other facilities."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is BVIT located",
+        "College location",
+        "Where is the college",
+        "BVIT address",
+        "Location of BVIT"
+      ],
+      "responses": [
+        "BVIT is located in Kharghar, Navi Mumbai, Maharashtra.",
+        "The college is situated in Kharghar, Navi Mumbai. Would you like to know anything else about BVIT?",
+        "Bharati Vidyapeeth Institute of Technology is located in Kharghar, Navi Mumbai."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses are available",
+        "Available branches",
+        "Diploma courses",
+        "Departments",
+        "What courses do you offer"
+      ],
+      "responses": [
+        "Sure! BVIT offers diploma programmes in Computer Engineering, Information Technology, Electronics & Telecommunication, Civil Engineering and Mechanical Engineering.",
+        "BVIT has several diploma engineering branches, including Computer Engineering, Information Technology, Electronics & Telecommunication, Civil Engineering and Mechanical Engineering.",
+        "If you're looking for diploma courses, BVIT offers programmes in Computer, Information Technology, Electronics & Telecommunication, Civil and Mechanical Engineering."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission",
+        "Admission process",
+        "Eligibility for admission",
+        "Admission details",
+        "How to apply"
+      ],
+      "responses": [
+        "Sure! Admissions at BVIT are conducted according to DTE Maharashtra and MSBTE guidelines. For the latest eligibility requirements and admission dates, it's best to contact the college admission office.",
+        "If you're interested in admission, the process follows the guidelines provided by DTE Maharashtra and MSBTE. The college admission office can provide the latest information about eligibility, documents and important dates.",
+        "Looking for admission information? You should check the latest DTE Maharashtra guidelines and contact BVIT for the current admission process and requirements."
+      ]
+    },
+
+    {
+      "tag": "msbte",
+      "patterns": [
+        "What is MSBTE",
+        "MSBTE information",
+        "Tell me about MSBTE",
+        "MSBTE board",
+        "Who conducts diploma exams"
+      ],
+      "responses": [
+        "MSBTE stands for Maharashtra State Board of Technical Education. It conducts diploma examinations and manages technical diploma education in Maharashtra.",
+        "MSBTE is the Maharashtra State Board of Technical Education. It is responsible for diploma examinations, academic regulations and other aspects of technical education in Maharashtra.",
+        "If you're studying for a diploma in Maharashtra, MSBTE is the board responsible for conducting the examinations and managing diploma-level technical education."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "Library",
+        "Does the college have a library",
+        "Library timing",
+        "Books available",
+        "Tell me about library"
+      ],
+      "responses": [
+        "Yes, BVIT has a library with technical books, journals and study materials that students can use for their studies.",
+        "BVIT provides a library with academic and technical resources for students. It can be useful for coursework, assignments and exam preparation.",
+        "The college has a library containing books and study materials related to different engineering subjects."
+      ]
+    },
+
+    {
+      "tag": "placement",
+      "patterns": [
+        "Placement",
+        "Campus placement",
+        "Placement cell",
+        "Job opportunities",
+        "Companies visit college"
+      ],
+      "responses": [
+        "BVIT has a Training and Placement Cell that helps students with internships, placement activities and career opportunities.",
+        "If you're interested in placements, the Training and Placement Cell assists students with campus placement and internship opportunities.",
+        "BVIT's Training and Placement Cell supports students with career guidance, internships and campus placement activities."
+      ]
+    },
+
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Canteen",
+        "Food facility",
+        "Is there a canteen",
+        "College cafeteria",
+        "Where can students eat"
+      ],
+      "responses": [
+        "Yes, the college has a canteen where students can purchase snacks, meals and refreshments during college hours.",
+        "BVIT provides a canteen facility for students and staff. You can get food and refreshments there during breaks.",
+        "Yes, there is a canteen on the college campus where students can have meals and snacks."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact number",
+        "Phone number",
+        "Email address",
+        "How to contact college",
+        "College contact"
+      ],
+      "responses": [
+        "For the latest phone number and email address, I recommend checking the official BVIT website or contacting the college administration office.",
+        "If you need to contact BVIT, the college administration office can provide the latest contact details.",
+        "For updated contact information, please refer to the official BVIT website or get in touch with the college administration office."
+      ]
+    }
+  ]
+}
