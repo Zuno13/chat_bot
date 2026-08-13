@@ -5,9 +5,11 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
 resources = [
     ("tokenizers/punkt", "punkt"),
@@ -50,7 +52,7 @@ for intent in intents["intents"]:
         sentences.append(preprocess(pattern))
         labels.append(tag)
 
-vectorizer = CountVectorizer()
+vectorizer = TfidfVectorizer()
 
 X = vectorizer.fit_transform(sentences)
 
@@ -58,9 +60,21 @@ encoder = LabelEncoder()
 
 y = encoder.fit_transform(labels)
 
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y
+)
+
 model = LogisticRegression(max_iter=2000)
 
-model.fit(X, y)
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
 
 pickle.dump(model, open("c_m.pkl", "wb"))
 pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
@@ -70,4 +84,6 @@ print("=" * 40)
 print("Training Completed Successfully")
 print("Number of Intents :", len(intents["intents"]))
 print("Training Samples  :", len(sentences))
+print("Testing Samples   :", X_test.shape[0])
+print("Model Accuracy    :", round(accuracy * 100, 2), "%")
 print("=" * 40)

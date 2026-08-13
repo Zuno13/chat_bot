@@ -9,7 +9,12 @@
         "Good morning",
         "Good afternoon",
         "Good evening",
-        "Is anyone there"
+        "Is anyone there",
+        "Hi there",
+        "Hello there",
+        "Can you help me",
+        "I have a question",
+        "I need some information"
       ],
       "responses": [
         "Hi! Welcome to the BVIT Student Chatbot. What would you like to know?",
@@ -26,7 +31,13 @@
         "See you",
         "Exit",
         "Quit",
-        "Thank you bye"
+        "Thank you bye",
+        "See you later",
+        "I have to go",
+        "I am leaving",
+        "Talk to you later",
+        "That's all for now",
+        "Bye for now"
       ],
       "responses": [
         "Goodbye! It was nice helping you. Have a great day!",
@@ -42,7 +53,14 @@
         "Thank you",
         "Thanks a lot",
         "Appreciate it",
-        "Thank you so much"
+        "Thank you so much",
+        "Thanks for helping",
+        "Thank you for the information",
+        "That was helpful",
+        "I appreciate your help",
+        "Thanks for your help",
+        "Okay thanks",
+        "Thank you very much"
       ],
       "responses": [
         "You're welcome! I'm glad I could help.",
@@ -58,7 +76,14 @@
         "Tell me about BVIT",
         "Which college is this",
         "College name",
-        "Full form of BVIT"
+        "Full form of BVIT",
+        "What does BVIT stand for",
+        "What is BVIT",
+        "Tell me the full name of BVIT",
+        "What is the full form of BVIT",
+        "Name of the college",
+        "Can you tell me the college name",
+        "What is the name of BVIT"
       ],
       "responses": [
         "BVIT stands for Bharati Vidyapeeth Institute of Technology. What else would you like to know about the college?",
@@ -74,7 +99,14 @@
         "College location",
         "Where is the college",
         "BVIT address",
-        "Location of BVIT"
+        "Location of BVIT",
+        "Where is BVIT",
+        "Which city is BVIT in",
+        "Where can I find BVIT",
+        "Is BVIT in Kharghar",
+        "BVIT Kharghar location",
+        "What is the location of the college",
+        "Where is the college situated"
       ],
       "responses": [
         "BVIT is located in Kharghar, Navi Mumbai, Maharashtra.",
@@ -90,7 +122,14 @@
         "Available branches",
         "Diploma courses",
         "Departments",
-        "What courses do you offer"
+        "What courses do you offer",
+        "What branches are available",
+        "What can I study at BVIT",
+        "Which diploma courses are offered",
+        "Tell me about the courses",
+        "What engineering branches are there",
+        "What programs does BVIT offer",
+        "Which departments does BVIT have"
       ],
       "responses": [
         "Sure! BVIT offers diploma programmes in Computer Engineering, Information Technology, Electronics & Telecommunication, Civil Engineering and Mechanical Engineering.",
@@ -106,7 +145,14 @@
         "Admission process",
         "Eligibility for admission",
         "Admission details",
-        "How to apply"
+        "How to apply",
+        "How do I apply for admission",
+        "What is the admission procedure",
+        "I want admission",
+        "I want to take admission",
+        "How can I apply to BVIT",
+        "What are the admission requirements",
+        "Tell me about admissions"
       ],
       "responses": [
         "Sure! Admissions at BVIT are conducted according to DTE Maharashtra and MSBTE guidelines. For the latest eligibility requirements and admission dates, it's best to contact the college admission office.",
@@ -122,7 +168,14 @@
         "MSBTE information",
         "Tell me about MSBTE",
         "MSBTE board",
-        "Who conducts diploma exams"
+        "Who conducts diploma exams",
+        "What does MSBTE stand for",
+        "Full form of MSBTE",
+        "What is the MSBTE board",
+        "Tell me about the diploma board",
+        "Who manages diploma exams",
+        "Which board conducts diploma exams",
+        "What is MSBTE used for"
       ],
       "responses": [
         "MSBTE stands for Maharashtra State Board of Technical Education. It conducts diploma examinations and manages technical diploma education in Maharashtra.",
@@ -138,7 +191,14 @@
         "Does the college have a library",
         "Library timing",
         "Books available",
-        "Tell me about library"
+        "Tell me about library",
+        "Is there a library",
+        "Does BVIT have a library",
+        "Can students use the library",
+        "What books are available",
+        "Tell me about the college library",
+        "Library facilities",
+        "Does the college provide library facilities"
       ],
       "responses": [
         "Yes, BVIT has a library with technical books, journals and study materials that students can use for their studies.",
@@ -154,7 +214,14 @@
         "Campus placement",
         "Placement cell",
         "Job opportunities",
-        "Companies visit college"
+        "Companies visit college",
+        "Does BVIT provide placements",
+        "Tell me about placements",
+        "What about campus jobs",
+        "Are there placement opportunities",
+        "Does the college have a placement cell",
+        "How are the placement opportunities",
+        "Can students get jobs through college"
       ],
       "responses": [
         "BVIT has a Training and Placement Cell that helps students with internships, placement activities and career opportunities.",
@@ -170,7 +237,14 @@
         "Food facility",
         "Is there a canteen",
         "College cafeteria",
-        "Where can students eat"
+        "Where can students eat",
+        "Does BVIT have a canteen",
+        "Is food available in college",
+        "Where can I get food",
+        "Tell me about the canteen",
+        "Canteen facility",
+        "Is there a food facility",
+        "Can students buy food on campus"
       ],
       "responses": [
         "Yes, the college has a canteen where students can purchase snacks, meals and refreshments during college hours.",
@@ -186,7 +260,14 @@
         "Phone number",
         "Email address",
         "How to contact college",
-        "College contact"
+        "College contact",
+        "How can I contact BVIT",
+        "What is the college phone number",
+        "How do I contact the college",
+        "BVIT contact details",
+        "Where can I find the college email",
+        "College email address",
+        "How can I get in touch with BVIT"
       ],
       "responses": [
         "For the latest phone number and email address, I recommend checking the official BVIT website or contacting the college administration office.",

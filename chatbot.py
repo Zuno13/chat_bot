@@ -49,9 +49,15 @@ def chatbot_response(message):
 
     X = vectorizer.transform([processed_message])
 
+    probabilities = model.predict_proba(X)
+
+    confidence = max(probabilities[0])
+
     prediction = model.predict(X)
 
     tag = encoder.inverse_transform(prediction)[0]
+
+    print("Confidence:", round(confidence * 100, 2), "%")
 
     for intent in intents["intents"]:
         if intent["tag"] == tag:
@@ -78,3 +84,4 @@ if __name__ == "__main__":
         response = chatbot_response(message)
 
         print("Bot:", response)
+        print()
